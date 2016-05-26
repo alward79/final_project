@@ -1,0 +1,109 @@
+/* #page
+================================================== */
+body{
+	padding: 70px;
+	background: url(../img/bg2.jpg) repeat-x 50% 0 fixed ;	
+
+}
+.container {
+	color:;
+}
+
+/* #Navigation
+================================================== */
+.navbar-brand{
+	margin-top: 0.01em;
+}	  
+#collapse{
+	float:right;
+}
+/*.navbar-default {
+background-color: #fff;
+border-color: #fff;
+}*/
+.breadcrumb > li + li:before {
+  content: none;
+}
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: #9d9da0;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #069;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: ;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #069;
+}
+
+/* #Typography 
+================================================== */
+#head1, #head3{
+	font-family: 'Charlemagne Std';
+	font-size:1.6em;
+	color: #069;
+	margin-top: 200px;
+}
+p{
+	color: #fff;
+}
+
+
+/* #Image
+================================================== */
+#rain, #about, .addy {
+	margin: 200px 0;
+}
+
+/* #Form
+================================================== */
+#contact{
+	width: 70%;
+	border: 1px solid #d6d6d5;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+#contact input, #concern  {
+	display: inline-block;
+	width: 90%;
+	padding: 0px;
+	margin: 5px;
+	border-radius: 2px;
+	text-align: left;
+	background-color: #FAF4D7;
+}
+
+#contact input:hover {
+	background-color: white;
+	border: 1px solid;
+}
+
+
+#contact label {
+	float: left;
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+}
+
+#contact #submit {
+	background-color: #069;
+	text-align: center;
+	width: 90%;
+}
+
+
+/* #Footer
+================================================== */
+footer{
+	padding: 0.1em;
+	clear: both;
+    width: 100%;
+    border-radius: 1px;
+	text-align: center;
+	box-shadow: 2px 2px 2px #DDD;
+}
