@@ -1,7 +1,7 @@
 /* #page
 ================================================== */
 body{
-	padding: 70px;
+	padding: 5.833em;
 	background: url(../img/bg2.jpg) repeat-x 50% 0 fixed ;	
 
 }
@@ -67,19 +67,19 @@ p{
 /* #Form
 ================================================== */
 #contact{
-	width: 70%;
+	width: 75%;
 	border: 1px solid #d6d6d5;
 	padding: 2px;
 	border-radius: 5px;
+	color:white;
 }
 
 #contact input, #concern  {
 	display: inline-block;
 	width: 90%;
-	padding: 0px;
+	padding: 1px;
 	margin: 5px;
 	border-radius: 2px;
-	text-align: left;
 	background-color: #FAF4D7;
 }
 
@@ -101,10 +101,10 @@ p{
 	width: 90%;
 }
 
-
 /* #Footer
 ================================================== */
 footer{
+	margin-top: 5em;
 	padding: 0.1em;
 	clear: both;
     width: 100%;
