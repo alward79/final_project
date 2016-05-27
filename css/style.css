@@ -12,15 +12,15 @@ body{
 /* #Navigation
 ================================================== */
 .navbar-brand{
-	margin-top: 0.01em;
+	margin-top: -95px;
 }	  
 #collapse{
 	float:right;
 }
-/*.navbar-default {
+.navbar-default {
 background-color: #fff;
 border-color: #fff;
-}*/
+}
 .breadcrumb > li + li:before {
   content: none;
 }
@@ -50,6 +50,11 @@ border-color: #fff;
 }
 p{
 	color: #fff;
+}
+#price{
+	font-size: 2em;
+	text-align: center;
+	padding: 200px;
 }
 
 
