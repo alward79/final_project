@@ -18,6 +18,7 @@
 	<!-- NAVIGATION 
  	================================================== -->
 	<header>
+		<img id="banner" class="img-responsive" src="img/banner.jpg" width="100%" alt="art director">
 		<nav class="navbar navbar-default navbar-inverse">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
@@ -36,7 +37,6 @@
 	    			<li><a href="pricing.html">Pricing</a></li>
                     <li class="dropdown"><a href="portfolio.html" data-toggle="dropdown">Portfolio<span class="care"></a></span>
                     	<ul class="dropdown-menu">
-							<li><a href="portfolio.html">Weddings</a></li>
 							<li><a href="portfolio.html">Portraits</a></li>
 							<li><a href="portfolio.html">Entertainment</a></li>
 							<li><a href="portfolio.html">Events</a></li>
@@ -48,10 +48,10 @@
 			</div>	    
 		</nav>	
 	</header>
-	
-	<!-- Contact Form
+
+	<!-- Contact Info
 	================================================== -->
-	<div class="container">
+	<div class="contact">
 		<div class="col-md-4 contact-in">
 			<div class="addy">
 				<p>Asbury Foster Contact</p>
@@ -60,25 +60,28 @@
 				<p>Facebook: <a href="https://www.facebook.com/AsburyFosterPhotography/">Facebook.com</a></p>
 				<p>Flickr: <a href="https://www.flickr.com/people/80985202@N05/" target="_blank" style="text-decoration: underline">Flickr.com</a></p>
 			</div>
-		</div>	
-		<article class="col-lg-8 col-lg-offset-1 col-sm-7 col-sm-offset-1">
-            <h1 id="head1">Asbury Foster Photography</h1>
+		</div>
+	</div>
+
+	<!-- Form
+	================================================== -->
+	<article class="col-md-7 col-md-offset-1">
+            <h2 id="head1">Asbury Foster Photography</h1>
             <div id="contact">
-				<form action="#" method="POST" name="forms">
-					<label for="name">First name:</label>
-					<input type="text" name="name" id="name" placeholder="First name" required>
-					<label for="lname">Last name:</label>
-					<input type="text" name="lname" id="lname" placeholder="Last name" required>
-					<label for="email">Email:</label>
-					<input type="email" name="email" id="email" placeholder="Your email" required>
-					<label for="comments">Your Question?</label><br>
-					<textarea name="concern" id="concern" rows="15" cols="30" placeholder="Comments or Concerns"></textarea><br>			
+				<form action="mailto:asburyfoster@gmail.com" method="POST" name="forms">
+					<label for="name">Name</label>
+					<input type="text" required="" name="name" id="name" required"">
+					
+					<label for="email">Email</label>
+					<input type="email" required="" name="email" id="email">
+					
+					<label for="comments">Message</label><br>
+					<textarea required="" name="concern"></textarea><br>			
 					<input type="submit" name="submit" id="submit">
 				</form>
 			</div>
     	</article>
-	</div>
-	
+
 	<!-- Footer
 	================================================== -->
 	<footer>
