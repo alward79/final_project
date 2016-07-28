@@ -3,19 +3,27 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Sports photographer">
+    <meta name="description" content="Portfolio page">
     <meta name="author" content="Angelena Ward">
     <meta name="google-site-verification" content="String_we_ask_for">
-    <title>Sports photographer</title>
+    <title>Portfolio</title>
 
     <!-- CSS
  	================================================== -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
+    <link href="css/lightbox.css" rel="stylesheet" />
+
+   	<!-- JavaScript
+ 	================================================== -->
+    <script src="js/modernizr.custom.js"></script>
+    <script scr="js/bootsrap.min.js"></script>
+	<script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
 
 </head>
 <body>
+	<dip id="page">
 	<!-- NAVIGATION 
  	================================================== -->
 	<header>
@@ -38,10 +46,10 @@
 	    			<li><a href="pricing.html">Pricing</a></li>
                     <li class="active" class="dropdown"><a href="portfolio.html" data-toggle="dropdown">Portfolio<span class="care"></a></span>
                     	<ul class="dropdown-menu">
-							<li><a href="portfolio.html">Portraits</a></li>
-							<li><a href="portfolio.html">Entertainment</a></li>
-							<li><a href="portfolio.html">Events</a></li>
-							<li><a href="portfolio.html">Sports</a></li>
+							<li><a href="portraits.html">Portraits</a></li>
+							<li><a href="entertainment.html">Entertainment</a></li>
+							<li><a href="event.html">Events</a></li>
+							<li><a href="sport.html">Sports</a></li>
 						</ul> 
                     </li>
 	    			<li><a href="contact.html">Contact</a></li>
@@ -54,25 +62,23 @@
 	================================================== -->
     <aside class="">
 		<h3 id="head3"></h3>
-			<div class="photo_container">
-			<div id="image1">
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-			</div>	 
-			<div id="image1">
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-			</div>	 
-			<div id="image1">
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-				<a href="img/best_obama.jpg" data-lightbox="group1"><img id="rain" src="img/BEST_OBAMA.jpg"  alt="inauguration 2014" class="pull-right img-responsive"></a>
-			</div>	 
+		<div class="photo_container">
+			<div id="image2">
+				<a href="img/BOOKER~2.jpg" data-lightbox="group1">
+           		<img class ="mg-responsive2" src="img/BOOKER~2.jpg"  width="22%" title="BOOKER~2" alt="TBOOKER~2"></a>
+				<a href="img/JONBAR~1.jpg" data-lightbox="group1">
+           		<img class ="mg-responsive2" src="img/JONBAR~1.jpg"  width="20%" title="JONBAR~1" alt="JONBAR~1"></a>
+				<a href="img/KOBEBR~1.jpg" data-lightbox="group1">
+           		<img class ="mg-responsive2" src="img/KOBEBR~1.jpg"  width="21%" title="KOBEBR~1" alt="KOBEBR~1"></a>
+			</div>
+			<div id="image2">
+				<a href="img/SHAQVS~1.jpg" data-lightbox="group1">
+           		<img class ="mg-responsive2" src="img/SHAQVS~1.jpg"  width="20%" title="SHAQVS~1" alt="SHAQVS~1"></a>
+				<a href="img/SPORTS~2.jpg" data-lightbox="group1">
+           		<img class ="mg-responsive2" src="img/SPORTS~2.jpg"  width="20%" title="SPORTS~2" alt="SPORTS~1"></a>
+				<a href="img/STEVEF~1.jpg" data-lightbox="group1">
+           		<img class ="mg-responsive2" src="img/STEVEF~1.jpg"  width="20%" title="STEVEF~1" alt="STEVEF~1"></a>
+			</div>	 	 
 		</div>	
 	</aside>
 	<!-- Footer
@@ -89,7 +95,6 @@
 
 	<!--Javascript 
 	===================================== -->
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>		
 </body>
 </html>
